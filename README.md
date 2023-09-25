@@ -28,9 +28,20 @@ Red wire of the 12 V power supply - to red  wire of the DC Fan
 ![Pico All Connected](images/pico.jpg)
 ![Fan and Power](images/fan.png)
 
-**Other Connections:**
-TBD
+**dht20 Connections:**
+sda = Pin(12)
+scl = Pin(13)
+GND = GND
+VCC = Pico Pin 40
+
+**OLED Connections:**
+sda =Pin(18)
+scl=Pin(19)
+GND = GND
+VCC = Pico Pin 40
+
 
 **Install:**
-TBD
+- Upload this whole repo into / on the pico using a recent version of micropython
+- Edit TRIGGER_TEMP to your desired temperate trigger
 
