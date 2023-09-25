@@ -9,7 +9,7 @@ This Circuit will use a 2222 npn transistor to control a 12V DC fan if the dht20
 This is the basic premise using the transitor:
 ![Basic Circuit using a transistor](tc.jpg)
 
-Pico Pi Pin Setup to Transistor:
+**Pico Pi Pin Setup to Transistor:**
 
 Collector - Black Wire of the DC fan 
  
@@ -25,12 +25,12 @@ Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)
 
 Red wire of the 12 V power supply - to red  wire of the DC Fan  
 
-Pics:
+**Pics:**
 TBD
 
-Other Connections:
+**Other Connections:**
 TBD
 
-Install:
+**Install:**
 TBD
 
