@@ -11,13 +11,19 @@ This is the basic premise using the transitor:
 
 Pico Pi Pin Setup to Transistor:
 
-Collector - Black Wire of the DC fan
-Base      - 470 Ohm resistor to power/+ on  breadboard rail
-Emitter   - Black wire of the 12 V power
-	        and to ground/- on the breadboard rail
-Pico GPIO 15   - to power/+ on the  breadboard rail
-Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)
-Red wire of the 12 V power supply - to red  wire of the DC Fan 
+Collector - Black Wire of the DC fan 
+ 
+Base      - 470 Ohm resistor to power/+ on  breadboard rail 
+ 
+Emitter   - Black wire of the 12 V power  
+ 
+	        and to ground/- on the breadboard rail  
+
+Pico GPIO 15   - to power/+ on the  breadboard rail  
+
+Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)  
+
+Red wire of the 12 V power supply - to red  wire of the DC Fan  
 
 Pics:
 TBD
