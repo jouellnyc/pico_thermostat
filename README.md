@@ -6,7 +6,7 @@ This Circuit will use a 2222 npn transistor to control a 12V DC fan if the dht20
 **Credits**
 |[dht20 driver](https://github.com/flrrth/pico-dht20)|[ssd1306  driver](https://github.com/stlehmann/micropython-ssd1306/blob/master/ssd1306.py)|[Circuit and Image](https://forums.raspberrypi.com/viewtopic.php?t=219897&sid=7d5c8cef37829fa4a5cbb0610ec2d0c3)|
 
-This is the basic premise on using the transitor:
+This is the basic premise using the transitor:
 ![Basic Circuit using a transistor](tc.jpg)
 
 Pico Pi Pin Setup to Transistor:
