@@ -1,5 +1,5 @@
 # pico_thermostat
-Simple Thermostat using a Raspberry Pi Pico
+Thermostat using a Raspberry Pi Pico
 
 This Circuit uses a [2222 npn transistor](https://www.adafruit.com/product/756), Raspberry Pi Pico, and [dht20](https://www.adafruit.com/product/5183) to control a 12V DC fan if the temperature is over a threshold you define.
 An OLED screen is also setup to view the temperature and output.
