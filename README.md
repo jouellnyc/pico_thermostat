@@ -26,6 +26,9 @@ Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)
 
 Red wire of the 12 V power supply - to red  wire of the DC Fan  
 
+**Fritzing Sketch**
+![BreadBoard](images/bread_board_bb.png)
+
 **Pics:**
 ![Pico All Connected](images/pico.jpg)
 ![Fan and Power](images/fan.png)
