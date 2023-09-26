@@ -3,11 +3,12 @@ Thermostat using a Raspberry Pi Pico
 
 This Circuit uses a [2222 npn transistor](https://www.adafruit.com/product/756), Raspberry Pi Pico, and [dht20](https://www.adafruit.com/product/5183) to control a 12V DC fan.  
 
-You define a threshold to turn the fan on or off. An OLED screen is also setup to view the temperature and output.
+You define a threshold to turn the fan on or off. An OLED screen is also setup to view the temperature and output.  
 
 
 **Basic premise schmetic**
 ![Basic Circuit using a transistor](images/tc.jpg)
+
 
 **Pico Pi Pin Setup to Transistor**
 
