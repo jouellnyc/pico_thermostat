@@ -18,7 +18,7 @@ Collector to  Black Wire of the DC fan
 Base      to  470 Ohm resistor to power/+ on  breadboard rail 
  
 Emitter   to  Black wire of the 12 V power  
-Emitter   also to ground/- on the breadboard rail  
+Emitter   also to ground/- on the breadboard rail  (shared ground)
 
 Pico GPIO 15  to power/+ on the  breadboard rail  
 
