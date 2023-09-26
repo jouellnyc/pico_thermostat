@@ -7,6 +7,7 @@ You define a threshold to turn the fan on or off. An OLED screen is also setup t
 
 
 **Basic premise schmetic**
+
 ![Basic Circuit using a transistor](images/tc.jpg)
 
 
