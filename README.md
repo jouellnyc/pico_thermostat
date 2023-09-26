@@ -6,7 +6,7 @@ This Circuit uses a [2222 npn transistor](https://www.adafruit.com/product/756),
 You define a threshold to turn the fan on or off. An OLED screen is also setup to view the temperature and output.
 
 
-This is the basic premise using the transitor:
+**Basic premise schmetic**
 ![Basic Circuit using a transistor](images/tc.jpg)
 
 **Pico Pi Pin Setup to Transistor**
