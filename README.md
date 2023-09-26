@@ -6,13 +6,10 @@ This Circuit uses a [2222 npn transistor](https://www.adafruit.com/product/756),
 You define a threshold to turn the fan on or off. An OLED screen is also setup to view the temperature and output.
 
 
-**Credits**
-|[dht20 driver](https://github.com/flrrth/pico-dht20)|[ssd1306  driver](https://github.com/stlehmann/micropython-ssd1306/blob/master/ssd1306.py)|[Circuit and Image](https://forums.raspberrypi.com/viewtopic.php?t=219897&sid=7d5c8cef37829fa4a5cbb0610ec2d0c3)|
-
 This is the basic premise using the transitor:
 ![Basic Circuit using a transistor](images/tc.jpg)
 
-**Pico Pi Pin Setup to Transistor:**
+**Pico Pi Pin Setup to Transistor**
 
 Collector - Black Wire of the DC fan 
  
@@ -30,11 +27,11 @@ Red wire of the 12 V power supply - to red  wire of the DC Fan
 **Fritzing Sketch**
 ![BreadBoard](images/bread_board_bb.png)
 
-**Pics:**
+**Pics**
 ![Pico All Connected](images/pico.jpg)
 ![Fan and Power](images/fan.png)
 
-**dht20 Connections:**
+**dht20 Connections**
 sda = Pin(12)  
 
 scl = Pin(13)  
@@ -44,7 +41,7 @@ GND = GND
 VCC = Pico Pin 40  
 
 
-**OLED Connections:**
+**OLED Connections**
 sda =Pin(18)  
 
 scl=Pin(19)  
@@ -57,4 +54,7 @@ VCC = Pico Pin 40
 **Install:**
 - Upload this whole repo into / on the pico using a recent version of micropython
 - Edit TRIGGER_TEMP to your desired temperate trigger
+
+**Credits**
+|[dht20 driver](https://github.com/flrrth/pico-dht20)|[ssd1306  driver](https://github.com/stlehmann/micropython-ssd1306/blob/master/ssd1306.py)|[Circuit and Image](https://forums.raspberrypi.com/viewtopic.php?t=219897&sid=7d5c8cef37829fa4a5cbb0610ec2d0c3)|
 
