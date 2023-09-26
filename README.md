@@ -20,7 +20,7 @@ Base      to  470 Ohm resistor to power/+ on  breadboard rail
 Emitter   to  Black wire of the 12 V power  
 Emitter   also to ground/- on the breadboard rail  (shared ground)
 
-Pico GPIO 15  to power/+ on the  breadboard rail  
+Any Pico GPIO (I use 15 in the code, but show GPIO 9 in the Fritzing) -  to power/+ on the  breadboard rail  
 
 Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)  
 
