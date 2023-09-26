@@ -13,18 +13,19 @@ You define a threshold to turn the fan on or off. An OLED screen is also setup t
 
 **Pico Pi Pin Setup to Transistor**
 
-Collector - Black Wire of the DC fan 
+Collector to  Black Wire of the DC fan 
  
-Base      - 470 Ohm resistor to power/+ on  breadboard rail 
+Base      to  470 Ohm resistor to power/+ on  breadboard rail 
  
-Emitter   - Black wire of the 12 V power  
-Emitter   - also to ground/- on the breadboard rail  
+Emitter   to  Black wire of the 12 V power  
+Emitter   also to ground/- on the breadboard rail  
 
-Pico GPIO 15   - to power/+ on the  breadboard rail  
+Pico GPIO 15  to power/+ on the  breadboard rail  
 
 Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)  
 
-Red wire of the 12 V power supply - to red  wire of the DC Fan  
+Red wire of the 12 V power supply  to red  wire of the DC Fan  
+
 
 **Fritzing Sketch**
 ![BreadBoard](images/bread_board_bb.png)
