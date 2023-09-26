@@ -1,7 +1,9 @@
 # pico_thermostat
 Simple Thermostat using a Raspberry Pi Pico
 
-This Circuit will use a 2222 npn transistor to control a 12V DC fan if the dht20 detects the temperature is over a threshold you define, using the pico.
+This Circuit uses a 2222 npn transistor, pi pico, and dht20 to control a 12V DC fan if the temperature is over a threshold you define.
+An OLED screen is also setup to view the temperature and output.
+
 
 **Credits**
 |[dht20 driver](https://github.com/flrrth/pico-dht20)|[ssd1306  driver](https://github.com/stlehmann/micropython-ssd1306/blob/master/ssd1306.py)|[Circuit and Image](https://forums.raspberrypi.com/viewtopic.php?t=219897&sid=7d5c8cef37829fa4a5cbb0610ec2d0c3)|
