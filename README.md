@@ -35,6 +35,7 @@ Red wire of the 12 V power supply  to red  wire of the DC Fan
 ![Fan and Power](images/fan.png)
 
 **dht20 Connections**
+
 sda = Pin(12)  
 
 scl = Pin(13)  
@@ -45,6 +46,7 @@ VCC = Pico Pin 40
 
 
 **OLED Connections**
+
 sda =Pin(18)  
 
 scl=Pin(19)  
