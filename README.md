@@ -23,7 +23,8 @@ An OLED screen is also setup to view the temperature and output.
 | Emitter  | ground/- on the breadboard rail (shared)|
 | GPIO 15/ANY | power/+ on  breadboard rail|
 | ANY GND/Pin38 | power/- on  breadboard rail (shared)|
-| Red wire of the 12 V power supply |  red  wire of the DC Fan|
+| Red wire of the 12 V power supply |  red  wire of the DC Fan|  
+
 NOTE: I use GPIO 15 in the code, but show GPIO 9 in the Fritzing to lessen clutter
 
 **Fritzing Sketch**
