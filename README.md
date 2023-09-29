@@ -43,19 +43,17 @@ Red wire of the 12 V power supply  to red  wire of the DC Fan
 | GPIO 12  | SDA       |
 | GPIO 13  | SCL       |
 | GND      | GND       |
-| 5V/PIN40 | VCC r     |
+| 5V/PIN40 | VCC       |
 
 
 **OLED Connections**
 
-sda =Pin(18)  
-
-scl=Pin(19)  
-
-GND = GND  
-
-VCC = Pico Pin 40  
-
+| GPIO Pin | Connection|
+| -------- | --------- |
+| GPIO 18  | SDA       |
+| GPIO 19  | SCL       |
+| GND      | GND       |
+| 5V/PIN40 | VCC       |
 
 **Install:**
 - Upload this whole repo into / on the pico using a recent micropython firmware
