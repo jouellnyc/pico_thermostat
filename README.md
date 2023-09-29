@@ -38,13 +38,12 @@ Red wire of the 12 V power supply  to red  wire of the DC Fan
 
 **dht20 Connections**
 
-sda = Pin(12)  
-
-scl = Pin(13)  
-
-GND = GND  
-
-VCC = Pico Pin 40  
+| GPIO Pin | Connection|
+| -------- | --------- |
+| GPIO 12  | SDA       |
+| GPIO 13  | SCL       |
+| GND      | GND       |
+| 5V/PIN40 | VCC r     |
 
 
 **OLED Connections**
