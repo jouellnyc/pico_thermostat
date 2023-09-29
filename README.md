@@ -13,7 +13,7 @@ An OLED screen is also setup to view the temperature and output.
 ![Basic Circuit using a transistor](images/tc.jpg)
 
 
-**Pico Pi Pin Setup to Transistor**
+**Pico Pi Pin Setup to Transistor/Circuit**
 |  Pin     | Component |
 | -------- | --------- |
 | Collector| DC fan Black wire|
@@ -24,20 +24,7 @@ An OLED screen is also setup to view the temperature and output.
 | GPIO 15/ANY | power/+ on  breadboard rail|
 | ANY GND/Pin38 | power/- on  breadboard rail (shared)|
 | Red wire of the 12 V power supply |  red  wire of the DC Fan|
-
-Collector to  Black Wire of the DC fan 
- 
-Base      to  470 Ohm resistor to power/+ on  breadboard rail 
- 
-Emitter   to  Black wire of the 12 V power  
-Emitter   also to ground/- on the breadboard rail  (shared ground)
-
-Any Pico GPIO (I use 15 in the code, but show GPIO 9 in the Fritzing) -  to power/+ on the  breadboard rail  
-
-Pico Pin 38 (gnd) to ground/- on the breadboard rail (shared ground)  
-
-Red wire of the 12 V power supply  to red  wire of the DC Fan  
-
+NOTE: I use GPIO 15 in the code, but show GPIO 9 in the Fritzing to lessen clutter
 
 **Fritzing Sketch**
 ![BreadBoard](images/bread_board_bb.png)
