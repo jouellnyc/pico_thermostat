@@ -13,6 +13,9 @@ An OLED screen is also setup to view the temperature and output.
 ![Basic Circuit using a transistor](images/tc.jpg)
 
 
+**Fritzing Schematic**
+![BreadBoard](images/bread_board_bb.png)
+
 **Pico Pi Pin Setup to Transistor/Circuit**
 |  Pin     | Component |
 | -------- | --------- |
@@ -27,12 +30,6 @@ An OLED screen is also setup to view the temperature and output.
 
 NOTE: I use GPIO 15 in the code, but show GPIO 9 in the Fritzing to lessen clutter
 
-**Fritzing Sketch**
-![BreadBoard](images/bread_board_bb.png)
-
-**Pics**
-![Pico All Connected](images/pico.jpg)
-![Fan and Power](images/fan.png)
 
 **dht20 Connections**
 
@@ -52,6 +49,11 @@ NOTE: I use GPIO 15 in the code, but show GPIO 9 in the Fritzing to lessen clutt
 | GPIO 19  | SCL       |
 | GND      | GND       |
 | 5V/PIN40 | VCC       |
+
+**Pics**
+![Pico All Connected](images/pico.jpg)
+![Fan and Power](images/fan.png)
+
 
 **Install:**
 - Upload this whole repo into / on the pico using a recent micropython firmware
