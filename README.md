@@ -14,6 +14,16 @@ An OLED screen is also setup to view the temperature and output.
 
 
 **Pico Pi Pin Setup to Transistor**
+|  Pin     | Component |
+| -------- | --------- |
+| Collector| DC fan Black wire|
+| Base     | 470 Ohm resistor|
+| 470 Ohm resistorp|power/+ on breadboard rail|
+| Emitter  | Black wire of the 12 V power  |
+| Emitter  | ground/- on the breadboard rail (shared)|
+| GPIO 15/ANY | power/+ on  breadboard rail|
+| ANY GND/Pin38 | power/- on  breadboard rail (shared)|
+| Red wire of the 12 V power supply |  red  wire of the DC Fan|
 
 Collector to  Black Wire of the DC fan 
  
