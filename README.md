@@ -14,7 +14,7 @@ An OLED screen is also setup to view the temperature and output.
 
 
 **Fritzing Schematic**
-![BreadBoard](images/bread_board_bb.png)
+![BreadBoard](images/pico_thermostat_bb.png)
 
 **Pico Pi Pin Setup to Transistor/Circuit**
 |  Pin     | Component |
