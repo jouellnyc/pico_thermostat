@@ -8,7 +8,7 @@ You define a temperature threshold to turn the fan on or off.
 An OLED screen is also setup to view the temperature and output.  
 
 
-**Basic premise schmetic**
+**Basic premise schmatic**
 
 ![Basic Circuit using a transistor](images/tc.jpg)
 
