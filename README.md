@@ -21,7 +21,7 @@ An OLED screen is also setup to view the temperature and output.
 | -------- | --------- |
 | Collector| DC fan Black wire|
 | Base     | 470 Ohm resistor|
-| 470 Ohm resistorp|power/+ on breadboard rail|
+| 470 Ohm resistor|power/+ on breadboard rail|
 | Emitter  | Black wire of the 12 V power  |
 | Emitter  | ground/- on the breadboard rail (shared)|
 | GPIO 15/ANY | power/+ on  breadboard rail|
